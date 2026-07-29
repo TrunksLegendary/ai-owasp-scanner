@@ -1,0 +1,22 @@
+# Local working log — not published
+CHAT_LOG.md
+
+# Generated scan reports
+scans/
+
+# The OWASP source document is not redistributed here — download it from
+# https://genai.owasp.org and regenerate the reference text with:
+#   python tools/extract_reference.py <path-to.pdf>
+*.pdf
+reference/
+
+# Target files may contain real API tokens — keep only the example
+targets/*.json
+!targets/example_target.json
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env

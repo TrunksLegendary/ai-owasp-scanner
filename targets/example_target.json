@@ -1,0 +1,14 @@
+{
+  "url": "http://localhost:8000/chat",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer REPLACE_WITH_YOUR_TEST_TOKEN"
+  },
+  "body_template": {
+    "message": "{{PROMPT}}"
+  },
+  "response_path": "reply",
+  "timeout": 60,
+  "delay_seconds": 0.5
+}

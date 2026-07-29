@@ -1,0 +1,34 @@
+AI OWASP Scanner
+Copyright 2026 TrunksLegendary
+
+This product includes software developed by the AI OWASP Scanner project,
+licensed under the Apache License, Version 2.0 (see LICENSE).
+
+--------------------------------------------------------------------------
+Third-party content
+--------------------------------------------------------------------------
+
+This project incorporates material adapted from:
+
+    OWASP Top 10 for Large Language Model Applications v2.0 (2025)
+    Copyright (c) The OWASP Foundation
+    Licensed under Creative Commons Attribution-ShareAlike 4.0 International
+    (CC BY-SA 4.0)
+    https://creativecommons.org/licenses/by-sa/4.0/
+    https://genai.owasp.org
+
+Specifically, the category titles, risk summaries and mitigation lists in
+`owasp_scanner/knowledge.py` are adapted from that document. Under the
+ShareAlike term of CC BY-SA 4.0, that adapted content — and any further
+adaptation of it — remains licensed under CC BY-SA 4.0 rather than Apache 2.0.
+
+The remainder of this project (detection rules, engines, reporting, CLI and
+tests) is original work licensed under Apache 2.0.
+
+The OWASP source PDF itself is not redistributed in this repository. Download
+it from https://genai.owasp.org.
+
+This project is an independent tool. It is not affiliated with, endorsed by, or
+sponsored by the OWASP Foundation. "OWASP" is a registered trademark of the
+OWASP Foundation, used here descriptively to identify the security standard
+this tool checks against.
